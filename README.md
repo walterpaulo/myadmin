@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## MyAdmin
+* rails version 7.0.0
+* Bundler version 2.1.4
+* npm version 6.14.15
+* yarn version 1.22.17
 
-Things you may want to cover:
 
-* Ruby version
+### Download Application
+```
+git clone https://github.com/walterpaulo/myadmin.git
+cd myadmin
+bundle install
+rails db:migrate
+rails db:seed
+yarn
+```
 
-* System dependencies
+### Start
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails server
+```
+**http://localhost:3000**
